@@ -196,3 +196,51 @@ Using branches. Making changes without affecting the main code line or project b
 Descriptive commits. This enables other developers to understand the value added or fixed in a specific code line. And number four, getting feedback through code reviews identifies whether the proposal solves the problem or issue created effectively.
 
 COMMON PITFALLS
+Common Pitfalls New Users Might Encounter
+Not Understanding Git vs. GitHub
+
+Challenge: Confusing Git (the version control system) with GitHub (a cloud-based hosting service).
+
+Solution: Learn basic Git commands (commit, push, pull, merge) before diving into GitHub.
+
+Forgetting to Create or Switch Branches
+
+Challenge: Making all changes directly in the main branch, leading to messy version control.
+
+Solution: Use feature branches (git checkout -b feature-xyz) and merge changes via pull requests.
+
+Merge Conflicts
+
+Challenge: Conflicting changes when multiple users edit the same file.
+
+Solution: Communicate with teammates, pull latest changes before committing, and resolve conflicts using git merge or git rebase.
+
+Not Using .gitignore Properly
+
+Challenge: Accidentally pushing sensitive or unnecessary files (e.g., .env, node_modules).
+
+Solution: Set up a .gitignore file to exclude files that shouldn’t be tracked.
+
+Overwriting Someone Else’s Work
+
+Challenge: Force-pushing (git push --force) can erase another contributor's changes.
+
+Solution: Always pull the latest updates before pushing and avoid force-push unless necessary.
+
+Not Writing Meaningful Commit Messages
+
+Challenge: Using vague commit messages like “Update” or “Fix bug.”
+
+Solution: Follow best practices for commit messages (e.g., “Fix login issue by updating authentication logic”).
+
+Not Using Pull Requests & Code Reviews
+
+Challenge: Directly pushing changes without team review.
+
+Solution: Use pull requests (PRs) to ensure quality control and collaboration.
+
+Ignoring Documentation
+
+Challenge: New team members struggle to understand project structure due to lack of README or contribution guidelines.
+
+Solution: Maintain an up-to-date README.md and CONTRIBUTING.md file.
